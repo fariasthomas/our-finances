@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --background: #f0f2f5;
+  --bg-green: #2d4a22;
+  --dark-blue: #363f5f;
+  --light-blue: #969cb3;
+  --green: #49aa26;
+  --light-green: #3dd705;
+  --red: #e92929
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--background);
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
